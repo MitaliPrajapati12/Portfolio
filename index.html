@@ -1,0 +1,188 @@
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/bc20e2f279.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <h1 class="logo">My Portfolio</h1>
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Skills</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>Engineering Student</p>
+                    <h1>Hi, I'm <span>Mitali</span></h1>
+                </div>
+                <a href="images/Mitali Prajapati.pdf" class="btn btn1">Download CV</a>
+            </div>
+        </div>
+        <!--About-->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/about_me.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit amet vel ut nemo suscipit laudantium, autem quam atque, ullam libero tenetur facere blanditiis totam voluptatem explicabo earum voluptate. Ab, ipsam blanditiis natus eveniet corporis et nesciunt sequi quisquam officia cum consectetur amet at. Illum soluta enim natus necessitatibus, ea non?</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span></li>
+                                <li><span>Web Designing</span></li>
+                                <li><span>UI/UX Designing</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>B.E.- Computer Engineering (Pursuing)</span></li>
+                                <li><span>12th (2020)</span></li>
+                                <li><span>10th (2018)</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="projects">
+                            <ul>
+                                <li><span>Landing Page</span></li>
+                                <li><span>Portfolio</span></li>
+                                <li><span>Temperature Converter</span></li>
+                                <li><span>Calculator</span></li>
+                                <li><span>Tribute Page</span></li>
+                                <li><span>TO-DO WebApp</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Skills-->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">Skills</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos numquam labore odit accusantium consectetur similique.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Designing</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos numquam labore odit accusantium consectetur similique.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>UI/UX Designing</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos numquam labore odit accusantium consectetur similique.</p>
+                        <a href="#">learn more</a>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <!--Portfolio-->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/portfolio.PNG" alt="">
+                        <div class="layer">
+                            <h3>Portfolio</h3>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/calculator.PNG" alt="">
+                        <div class="layer">
+                            <h3>Calculator</h3>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/landing page.PNG" alt="">
+                        <div class="layer">
+                            <h3>Landing Page</h3>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/temperature converter.PNG" alt="">
+                        <div class="layer">
+                            <h3>Temperature Converter</h3>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/tribute page.PNG" alt="">
+                        <div class="layer">
+                            <h3>Tribute Page</h3>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/to-do webapp.PNG" alt="">
+                        <div class="layer">
+                            <h3>TO-DO WebApp</h3>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!--Contact-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>mitaliprajapati12@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>7016306473</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/mitali-prajapati-59b4a9273"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/MitaliPrajapati12"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links")
+            var tabcontents = document.getElementsByClassName("tab-contents")
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link")
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link")
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+        </script>
+    </body>
+</html>
